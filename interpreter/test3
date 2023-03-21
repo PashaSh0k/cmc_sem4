@@ -1,0 +1,30 @@
+program 
+{ 
+	int a = 123, b = 32, c; 
+	string x, y, z; 
+	read(x);
+	read(y);
+	read(z);
+	c = 27;
+	goto Q;
+	if ((c >= 100) or (x == z))   
+	{ 
+		read(y);  
+		write(y);  
+		write(x + y + z);
+		write(c);  
+	} 
+	else 
+	{ 
+		a = 17;
+		c = a; 
+	}
+	while (c > 10)  
+	{ 
+		c = c - 5; 
+		write (c); 
+		x = x + "step";    
+	} 
+Q:
+	write (x); 
+}

@@ -1,0 +1,16 @@
+program
+{
+	struct A{
+		int X;
+		int Y;
+	};
+	A q, b;
+	int s = 9;
+	q.X = s;
+	q.Y = s + 11;
+	b = q;
+	write(q.X);
+	write(q.Y);
+	write(b.X);
+	write(b.Y);
+}

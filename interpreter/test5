@@ -1,0 +1,26 @@
+program 
+{ 
+	int a = 123, b = 32, c; 
+	string x = "aaa", y, z = "bbb";
+	write(x>z);
+	c = (a + b) * 2; 
+	if ((c >= 100) or (x == z))   
+	{ 
+		read(y);  
+		write(y);  
+		write(x + y + z);
+		write(c);  
+	} 
+	else 
+	{ 
+		a = 7;
+		c = a; 
+	}
+	while (c > 10)  
+	{ 
+		c = c - 5; 
+		write (c); 
+		x = x + "qwerty";    
+	} 
+	write (x); 
+}

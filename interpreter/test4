@@ -1,0 +1,8 @@
+program
+{
+	bool a = true, b = false, c;
+	c = a and b;
+	b = c or a;
+	write(a);
+	write(b);
+}
